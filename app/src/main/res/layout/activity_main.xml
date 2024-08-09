@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select your UI ?"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"/>
+
+    <!-- add RadioGroup which contain the many RadioButton-->
+    <RadioGroup
+        android:id="@+id/groupradio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radio_id1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="XML 1" />
+
+        <RadioButton
+            android:id="@+id/radio_id2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="XML 2" />
+        <RadioButton
+            android:id="@+id/radio_id3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="XML 3" />
+
+        <RadioButton
+            android:id="@+id/radio_id4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="XML 4" />
+        <RadioButton
+            android:id="@+id/radio_id5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="XML 5" />
+
+    </RadioGroup>
+
+</RelativeLayout>
